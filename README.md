@@ -6,7 +6,7 @@ This project implements a **Skiplist** as the underlying data structure. Skiplis
 
 ## Description
 
-The **Skiplist** works by introducing a probabilistic element to the data structure, which helps achieve logarithmic time complexity for search operations. Interestingly, when looking at a visual representation of a skiplist, you might notice that it somewhat resembles a Binary Search Tree (BST) when viewed from a certain angle. You can dive deeper into the concept of skiplist from the [OI Wiki](https://oi-wiki.org/data-structures/skiplist/) for more detailed understanding.
+The **Skiplist** works by introducing a probabilistic element to the data structure, which helps achieve logarithmic time complexity for search operations. Interestingly, when looking at a visual representation of a skiplist, you might notice that it somewhat resembles a Binary Search Tree (BST) when viewed from a certain angle. You can dive deeper into the concept of skiplist from the [Wiki](https://en.wikipedia.org/wiki/Skip_list) for more detailed understanding.
 
 ## Key Features
 
