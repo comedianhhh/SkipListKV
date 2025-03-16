@@ -2,15 +2,19 @@
 
 ## Overview
 
-**SkipListKV** is a lightweight key-value storage system built using **Skip List** as the underlying data structure. It supports essential operations like **insertion, deletion, and lookup**, making it a simple yet efficient data store.
+This project implements a **Skiplist** as the underlying data structure. Skiplist is a randomized data structure that allows fast search, insertion, and deletion operations, which is often used as an alternative to balanced trees.
 
-## Features
+## Description
 
-- **Skip List as the Core Structure**: Provides efficient insert, delete, and search operations.
-- **C++ Template-Based Implementation**: Supports various key-value types using modern C++ templates.
-- **STL-like Interface**: Designed for ease of use, similar to STL containers.
-- **Custom Comparison Functions**: Supports user-defined comparison functions using **lambda expressions** or **functors**.
-- **Iterator Support**: Allows easy traversal through stored elements.
+The **Skiplist** works by introducing a probabilistic element to the data structure, which helps achieve logarithmic time complexity for search operations. Interestingly, when looking at a visual representation of a skiplist, you might notice that it somewhat resembles a Binary Search Tree (BST) when viewed from a certain angle. You can dive deeper into the concept of skiplist from the [OI Wiki](https://oi-wiki.org/data-structures/skiplist/) for more detailed understanding.
+
+## Key Features
+
+- **Skiplist as the core data structure**: A modern approach to data storage and retrieval.
+- **C++ Template Programming**: Implemented using C++ templates to allow for generic data types and custom comparison functions.
+- **Supports STL-like Usage**: Designed similarly to C++ Standard Template Library (STL) containers.
+- **Iterator Traversal**: Utilizes iterators for traversing elements in the skiplist.
+- **Internal Class Structure**: The data structure is designed using nested classes. For example, `set<int>::iterator` is an inner class of the `set<int>` container.
 
 ## Installation & Usage
 
@@ -48,6 +52,7 @@ int main() {
     }
 }
 ```
+![Screenshot 2025-03-16 114033](https://github.com/user-attachments/assets/c057d026-bf1d-4364-b5d2-93e15bed08fb)
 
 ## API Overview
 
