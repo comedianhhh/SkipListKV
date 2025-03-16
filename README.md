@@ -27,7 +27,7 @@ The **Skiplist** works by introducing a probabilistic element to the data struct
 
 ```sh
 # Clone the repository
-git clone https://github.com/yourusername/SkipListKV.git
+git clone https://github.com/comedianhhh/SkipListKV.git
 cd SkipListKV
 
 # Compile (example using g++)
